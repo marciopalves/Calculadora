@@ -9,7 +9,7 @@ describe('CalculadoraComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ CalculadoraComponent ],
-providers:[CalculadoraService]
+      providers:[CalculadoraService]
     })
     .compileComponents();
   }));
